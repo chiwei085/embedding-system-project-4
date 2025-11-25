@@ -24,7 +24,7 @@ def run_training():
         data=yaml_path,
         epochs=100,      # 訓練 100 輪
         imgsz=640,       # 圖片大小 640
-        batch=32,        # 如果顯卡記憶體不足 (OOM)，請改成 8 或 4
+        batch=16,        # 如果顯卡記憶體不足 (OOM)，請改成 8 或 4
         project='jetbot_project', # 專案名稱
         name='run_vehicle_3classes',   # 實驗名稱
         device=0         # 指定使用第一張 GPU (若無 GPU 會自動切回 CPU)
