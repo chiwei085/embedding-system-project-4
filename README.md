@@ -67,7 +67,8 @@ names: ['bus', 'car', 'motorcycle']
 ```bash
 python train.py
 ```
->:::success 訓練結果： 模型權重將儲存於 jetbot_project/run_vehicle_3classes/weights/best.pt。 :::
+>success 訓練結果： 模型權重將儲存於 `jetbot_project/run_vehicle_3classes/weights/best.pt`。 
+
 
 
 
@@ -76,9 +77,10 @@ python train.py
 
 ### 執行推論
 ```bash
-python python inference.py
+python inference.py
 ```
->:::success 推論結果： 標注影片將儲存於 jetbot_project/video_result/檔名.avi。 :::
+> success 推論結果： 標註影片將儲存於 `jetbot_project/video_result/` 資料夾內 (通常為 .avi 格式)。
+
 
 ## 📁 專案結構 (Directory Structure)
 
