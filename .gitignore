@@ -54,3 +54,5 @@ anaconda3/
 # ===========================
 .DS_Store
 Thumbs.db
+
+/.venv 
